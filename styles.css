@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    background-color: #7FFF00;
+    color: #0F2754;
+    font-family: Montserrat;
+    padding: 5% 20%;
+}
+
+.center {
+    margin: 0 auto;
+}
+.color-purple {
+    color: rebeccapurple;
+}
+
+.my-table thead {
+    background-color: indianred;
+    color: darkblue;
+}
+
+.my-table td {
+    width: 200px;
+    color: darkslategray;
+}
+
+.my-table tbody tr:nth-child(odd) {
+    background-color: lightsalmon;
+}
+
+.my-table tbody tr:nth-child(even) {
+    background-color: lightcoral;
+}
+
+.my-pic {
+    width: 40%;
+}
+
+.columns-container {
+    display: flex;
+}
+
+.column {
+    width: 33.33%;
+}
